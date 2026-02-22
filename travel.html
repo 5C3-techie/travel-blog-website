@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Meenakshi's Travel Diary ✈️</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav>
+        <h1>Miles with Meenakshi🌍 </h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#places">Places</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#bucket-list">Bucket List</a></li>
+            <li><a href="#travel-stories">Travel Stories</a></li>
+            <li><a href="#fun-travel">Fun Travel</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button id = "themeToggle">🌚🌞</button>
+        </ul>
+    </nav>
+</header>
+<script>
+const btn = document.getElementById("themeToggle");
+
+btn.onclick = function(){
+  document.body.classList.toggle("dark-mode");
+};
+</script>
+
+<!-- HERO SECTION -->
+<section id = "hero">
+    <h2>Heyy Hii, I'm Meenakshi ✨</h2>
+    <p>Just a BTech student trying to balance assignments and adventures. When I’m not solving equations or writing code, you’ll find me chasing sunsets, exploring hidden streets, and collecting stories from every corner I visit. 
+        Engineering builds my career, but travel builds my soul.</p>
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600" alt="Travel image " width="400">
+    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Travel image " width="400">
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About My Blog</h2>
+    <p> Some people collect stamps. I collect memories.I love documenting memories, food, friends, and peaceful travel moments.
+       This blog is my little corner of happiness & a memory book — filled with roads
+        I’ve taken, people I’ve met, and lessons I’ve learned along the way. 💛</p>
+</section>
+
+<!-- FAVORITE PLACES -->
+<section id="places">
+    <h2>My Favorite Places</h2>
+
+    <article>
+        <h3>Goa Beaches🌊 </h3>
+        <img src="https://images.unsplash.com/photo-1646748019039-e908f7e41282?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300">
+        <p>Golden sand, sunsets, and fun memories with friends.</p>
+    </article>
+
+    <article>
+        <h3>Ooty Hills🌄 </h3>
+        <img src="https://images.unsplash.com/photo-1709460177357-3e37e2f2abf3?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300">
+        <p>Tea gardens, cold breeze, peaceful mornings.</p>
+    </article>
+
+    <article>
+        <h3>Shimla Trip🚠</h3>
+        <img src= "https://media.assettype.com/outlooktraveller/2024-05/6ac0f6a7-e055-4c0a-9e78-cdd5f05f96b8/shutterstock_1611108550.jpg" width="250">
+         <p>Beautiful snow-capped mountains and cozy hillside stays.</p>
+    </article>
+
+</section>
+<section class="top-trips">
+
+  <article>
+    <h3>Goa Trip</h3>
+    <p>Best sunset ever!</p>
+  </article>
+
+  <article>
+    <h3>Ooty Trip</h3>
+    <p>Cold mornings & tea gardens.</p>
+  </article>
+
+  <article>
+    <h3> Trip to Kerala </h3>
+    <p> Those moments at Back Waters.</p>
+  </article>
+
+</section>
+
+<!-- PHOTO GALLERY -->
+<section id="gallery">
+    <h2>Photo Gallery 📸</h2>
+    <div class="scroll-gallery">
+        <img src="https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHB1ZWJsb3xlbnwwfHwwfHx8MA%3D%3D" width="250">
+        <img src = "https://thumbs.dreamstime.com/b/coffee-plantation-kenya-large-coffee-plantation-kenya-showing-rows-coffee-plants-lush-green-landscape-366406789.jpg" width="250">
+        <img src="https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aW5kaWElMjB0b3VyaXNtfGVufDB8fDB8fHww" width="250">
+        <img src="https://cdn.pixabay.com/photo/2017/08/14/18/51/sun-rise-2641503_1280.jpg" width="250">
+        <img src = "https://static.toiimg.com/thumb/msid-121177953,width-1280,height-720,resizemode-4/121177953.jpg" width = "250">
+        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbey_g1CtAJgpCwaJaz9yo8heSA_LbuM42pg&s=10" width = "250">
+        <img src = "https://i0.wp.com/oneday.travel/wp-content/uploads/up-tours-1-day-coorg-with-talacauvery-local-sightseeing-tour-package-private-car-header.jpg?fit=1400%2C700&ssl=1" width = "250">
+        <img src = "https://the-shooting-star.com/wp-content/uploads/2013/09/dsc08801.jpg" width = "250">
+        <img src="https://media.istockphoto.com/id/539271875/photo/winding-mountain-road-without-cars.jpg?s=612x612&w=0&k=20&c=W9HG-8YR6fKFfSJRcq-WLEBh_Vdfx0RH4KjG_nJDK5U=" width="250">
+    </div>
+
+</section>
+
+<section id="bucket-list">
+    <h2>My Travel Bucket List🌟</h2>
+    <p>Places I dream of visiting someday ✈️</p>
+        <div class="bucket-container">
+               <article class="bucket-item">
+            <h3>Ladakh🏔</h3>
+            <p>Ride a bike through the mountains and watch the Milky Way at night.</p>
+           
+        </article>
+
+        <article class="bucket-item">
+            <h3>Califonia🌟</h3>
+            <p>Visit my dream place the DisneyLand.</p>
+            
+        </article>
+
+        <article class="bucket-item">
+            <h3>Japan Cherry Blossom🌸</h3>
+            <p>Walk under pink sakura trees and try authentic ramen.</p>
+           
+        </article>
+
+        <article class="bucket-item">
+            <h3>Bali Beaches 🏖</h3>
+            <p>Relax, journal, and watch sunsets by the ocean.</p>
+            
+        </article>
+        <article class="bucket-item">
+            <h3>Andaman & Nicobar Islands🏰</h3>
+            <p>Explore pristine beaches, coral reefs, and lush forests.</p>
+        </article>
+        <article class="bucket-item">
+            <h3> Himachal Pradesh🌍</h3>
+            <p>Experience snow-capped mountains and serene hill stations.</p>
+            </article>
+        <article class="bucket-item">
+            <h3> New York City 🌆</h3>
+            <p>See the iconic skyline, visit Central Park, and explore diverse culture.</p>
+        </article>
+            <article class="bucket-item">
+                <h3>Switzerland 🌄</h3>
+                <p>Enjoy breathtaking landscapes, charming villages, and outdoor adventures.</p>
+            </article>
+        </div>
+</section>
+<section id="travel-stories">
+    <h2> My Travel Stories ✨</h2>
+    <p>Little moments that turned into forever memories 💛</p>
+
+    <div class="Timeline">
+
+        <article class="story">
+            <h3> Lost in Goa, Found a Sunset</h3>
+            <p>
+                I took the wrong road and ended up near a quiet beach in Goa.
+                There were no crowds, just waves and orange sky.
+                That mistake became my favorite memory.
+            </p>
+            <span>Lesson: Sometimes getting lost leads to magic ✨</span>
+        </article>
+
+        <article class="story">
+            <h3>The Cold Morning in Ooty</h3>
+            <p>
+                I woke up at 5 AM wrapped in 3 blankets, still freezing.
+                But when I saw the sunrise over the hills, I forgot the cold.
+                Totally worth it.
+            </p>
+            <span>Lesson: Wake up early… beautiful things happen 🌄</span>
+        </article>
+
+        <article class="story">
+            <h3>Midnight Biryani in Hyderabad</h3>
+            <p>
+                After a long day, we searched for food at midnight and found
+                the best biryani ever. Sitting on roadside chairs,
+                laughing with friends… pure happiness.
+            </p>
+            <span>Lesson: Good food + good friends = perfect trip 😄</span>
+        </article>
+
+    </div>
+</section>
+<section id="fun-box" class="fun-travel">
+  <h2> What Makes My Travel Less Boring</h2>
+  <div>
+  <ul>
+    <li>Trying new street food and street shopping which is mandatory check</li>
+    <li>Talking to strangers and hearing their stories ❤️</li>
+    <li>Writing small travel diary notes ✍️</li>
+    <li>Taking silly photos with family and cousins 😂</li>
+    <li>Those peaceful moments of watching sunrises & sunsets 🎧🌅</li>
+  </ul>
+  </div>
+</section>
+<section id="why-box">
+  <h2>🌍 Why Travelling Is Important </h2>
+  <div>
+  <p>
+    Travel teaches independence, patience, and gratitude.
+    Every trip gives you new memories, new friends,
+    and new stories to tell.Rather than investing time on people 
+    who don’t value you, invest in yourself by traveling and creating 
+    memories that will last a lifetime.
+  </p>
+  </section>
+  </div>
+
+</section>
+<section class="special-trip">
+  <h2>One Trip I’ll Never Forget 💛 </h2>
+
+  <div class="memory-card">
+    <h3> The Chennai Trip That Stayed in My Heart 🌊</h3>
+
+    <p>
+      I still remember that quiet evening in Chennai when the sky turned soft orange.
+      The sea breeze touched my face, and for the first time in months,
+      I felt calm inside.
+    </p>
+
+    <p>
+      We walked slowly on the beach, talking about life, dreams,
+      and all the little worries we carry every day.
+      There was laughter, silence, and moments where words weren’t needed.
+      Just being there with people I love made everything feel lighter.
+    </p>
+
+    <p>
+      I realized that travel isn’t about fancy places.
+      It’s about small memories – sharing food, long walks,
+      random jokes, and peaceful sunsets.
+    </p>
+
+    <p>
+      That night in Chennai taught me something simple:
+      happiness is not somewhere far away…
+      it’s in the moments we pause and truly feel alive.
+    </p>
+
+    <span>Lesson from this trip: Memories matter more than destinations ✨</span>
+  <p class="location">📍 Chennai, Tamil Nadu</p>
+  </div>
+</section>
+
+<!-- QUOTE SECTION -->
+<blockquote class="quote">
+  "Travel isn’t about escaping life, it’s about life not escaping us."
+</blockquote>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <h2>Let’s Stay in Touch 💌</h2>
+
+  <div class="contact-box">
+    <a href="mailto:meenakshi@email.com">📧 meenakshi@email.com</a>
+
+    <a href="https://instagram.com/---------" target="_blank">
+      📸 Instagram
+    </a>
+
+    <a href="https://github.com/-------" target="_blank">
+      💻 GitHub
+    </a>
+
+    <a href="tel:+919876543210">📱 +91 98765443210</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>Made with ❤️ by Meenakshi | 2026</p>
+</footer>
+
+</body>
+</html>
